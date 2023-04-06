@@ -1,3 +1,4 @@
+@charset "UTF-8";
 /* Reset */
 * {
   margin: 0;
@@ -363,7 +364,7 @@
 /* Estilos generales */
 html,
 body {
-  max-width: 1440px;
+  max-width: 1600px;
   margin: 0 auto;
   font-family: Arial, sans-serif;
   background-color: #262b2f;
@@ -396,4 +397,28 @@ p {
   color: #dee2e6;
 }
 
-/*# sourceMappingURL=style.css.map */
+/* color placeholder input bootstrap  */
+.form-control::-moz-placeholder {
+  /* Chrome, Firefox, Opera, Safari 10.1+ */
+  color: #dee2e6;
+  opacity: 1; /* Firefox */
+}
+.form-control::placeholder {
+  /* Chrome, Firefox, Opera, Safari 10.1+ */
+  color: #dee2e6;
+  opacity: 1; /* Firefox */
+}
+
+.form-control:-ms-input-placeholder {
+  /* Internet Explorer 10-11 */
+  color: #dee2e6;
+}
+
+.form-control::-ms-input-placeholder {
+  /* Microsoft Edge */
+  color: #dee2e6;
+}
+
+footer p {
+  font-size:  16px;
+}/*# sourceMappingURL=style.css.map */

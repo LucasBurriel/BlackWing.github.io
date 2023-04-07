@@ -3,6 +3,7 @@
 @use 'menu';
 @use 'index';
 @use 'about';
+@use 'services';
 @use 'contact';
 
 /* Estilos generales */
@@ -59,5 +60,5 @@ p {
 }
 
 footer p {
-  font-size: 16px;
+  font-size: 16px;
 }
